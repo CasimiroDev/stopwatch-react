@@ -1,0 +1,67 @@
+.container {
+    background-color: #f5f5f5;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 .6rem .5rem #0004;
+}
+
+#display_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30rem;
+    height: 18rem;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #4f308f;
+}
+
+#display_box span { 
+    font-size: 36pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0009;
+    color: #f5f5f5;
+    width: 150px;
+    height: 85px;
+    border-radius: 8px;
+}
+
+#display_box p {
+    font-size: 8pt;
+}
+
+.buttons_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons_container input {
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    transition: all .2s ease-in-out;
+}
+
+input[type=button]:hover {
+    opacity: .7;
+    transform: scale(1.1)
+}
+
+input[value=Start]{
+    background-color: #2ff830;
+}
+
+input[value=Stop]{
+    background-color: #f8302f;
+}
+
+input[value=Reset]{
+    background-color: #302ff8;
+}
